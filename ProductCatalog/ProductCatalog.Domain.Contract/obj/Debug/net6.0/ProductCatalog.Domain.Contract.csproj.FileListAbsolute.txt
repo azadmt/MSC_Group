@@ -1,0 +1,15 @@
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\bin\Debug\net6.0\ProductCatalog.Domain.Contract.deps.json
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\bin\Debug\net6.0\ProductCatalog.Domain.Contract.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\bin\Debug\net6.0\ref\ProductCatalog.Domain.Contract.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\bin\Debug\net6.0\ProductCatalog.Domain.Contract.pdb
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\obj\Debug\net6.0\ProductCatalog.Domain.Contract.csproj.AssemblyReference.cache
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\obj\Debug\net6.0\ProductCatalog.Domain.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\obj\Debug\net6.0\ProductCatalog.Domain.Contract.AssemblyInfoInputs.cache
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\obj\Debug\net6.0\ProductCatalog.Domain.Contract.AssemblyInfo.cs
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\obj\Debug\net6.0\ProductCatalog.Domain.Contract.csproj.CoreCompileInputs.cache
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\obj\Debug\net6.0\ProductCatalog.Domain.Contract.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\obj\Debug\net6.0\ref\ProductCatalog.Domain.Contract.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\obj\Debug\net6.0\ProductCatalog.Domain.Contract.pdb
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\bin\Debug\net6.0\Framework.Domain.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\bin\Debug\net6.0\Framework.Domain.pdb
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain.Contract\obj\Debug\net6.0\ProductCatalog.Domain.Contract.csproj.CopyComplete

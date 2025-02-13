@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ProductCatalog.Application/1.0.0": {
+        "dependencies": {
+          "ProductCatalog.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ProductCatalog.Application.dll": {}
+        }
+      },
+      "Framework.Domain/1.0.0": {
+        "runtime": {
+          "Framework.Domain.dll": {}
+        }
+      },
+      "ProductCatalog.Domain/1.0.0": {
+        "dependencies": {
+          "Framework.Domain": "1.0.0",
+          "ProductCatalog.Domain.Contract": "1.0.0"
+        },
+        "runtime": {
+          "ProductCatalog.Domain.dll": {}
+        }
+      },
+      "ProductCatalog.Domain.Contract/1.0.0": {
+        "dependencies": {
+          "Framework.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ProductCatalog.Domain.Contract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProductCatalog.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framework.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductCatalog.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductCatalog.Domain.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

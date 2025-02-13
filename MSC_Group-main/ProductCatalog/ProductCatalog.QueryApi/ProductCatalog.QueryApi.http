@@ -1,0 +1,11 @@
+@ProductCatalog.QueryApi_HostAddress = http://localhost:5143
+
+GET {{ProductCatalog.QueryApi_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ProductCatalog.QueryApi_HostAddress}}/todos/1
+Accept: application/json
+
+###

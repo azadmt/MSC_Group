@@ -1,0 +1,17 @@
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\bin\Debug\net6.0\ProductCatalog.Domain.deps.json
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\bin\Debug\net6.0\ProductCatalog.Domain.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\bin\Debug\net6.0\ref\ProductCatalog.Domain.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\bin\Debug\net6.0\ProductCatalog.Domain.pdb
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\obj\Debug\net6.0\ProductCatalog.Domain.csproj.AssemblyReference.cache
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\obj\Debug\net6.0\ProductCatalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\obj\Debug\net6.0\ProductCatalog.Domain.AssemblyInfoInputs.cache
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\obj\Debug\net6.0\ProductCatalog.Domain.AssemblyInfo.cs
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\obj\Debug\net6.0\ProductCatalog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\obj\Debug\net6.0\ProductCatalog.Domain.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\obj\Debug\net6.0\ref\ProductCatalog.Domain.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\obj\Debug\net6.0\ProductCatalog.Domain.pdb
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\bin\Debug\net6.0\ProductCatalog.Domain.Contract.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\bin\Debug\net6.0\ProductCatalog.Domain.Contract.pdb
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\obj\Debug\net6.0\ProductCatalog.Domain.csproj.CopyComplete
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\bin\Debug\net6.0\Framework.Domain.dll
+C:\Users\Trainer\source\repos\ProductCatalog.Domain\ProductCatalog.Domain\bin\Debug\net6.0\Framework.Domain.pdb

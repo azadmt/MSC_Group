@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Framework.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Framework.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framework.Domain.dll": {}
+        }
+      },
+      "ProductCatalog.Domain.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Framework.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ProductCatalog.Domain.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProductCatalog.Domain.Contract.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Framework.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Framework.Domain/Framework.Domain.csproj",
+      "msbuildProject": "../Framework.Domain/Framework.Domain.csproj"
+    },
+    "ProductCatalog.Domain.Contract/1.0.0": {
+      "type": "project",
+      "path": "../ProductCatalog.Domain.Contract/ProductCatalog.Domain.Contract.csproj",
+      "msbuildProject": "../ProductCatalog.Domain.Contract/ProductCatalog.Domain.Contract.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Framework.Domain >= 1.0.0",
+      "ProductCatalog.Domain.Contract >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Trainer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Trainer\\source\\repos\\MSC_Group\\ProductCatalog\\ProductCatalog.Domain\\ProductCatalog.Domain.csproj",
+      "projectName": "ProductCatalog.Domain",
+      "projectPath": "C:\\Users\\Trainer\\source\\repos\\MSC_Group\\ProductCatalog\\ProductCatalog.Domain\\ProductCatalog.Domain.csproj",
+      "packagesPath": "C:\\Users\\Trainer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Trainer\\source\\repos\\MSC_Group\\ProductCatalog\\ProductCatalog.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Trainer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Trainer\\source\\repos\\MSC_Group\\ProductCatalog\\Framework.Domain\\Framework.Domain.csproj": {
+              "projectPath": "C:\\Users\\Trainer\\source\\repos\\MSC_Group\\ProductCatalog\\Framework.Domain\\Framework.Domain.csproj"
+            },
+            "C:\\Users\\Trainer\\source\\repos\\MSC_Group\\ProductCatalog\\ProductCatalog.Domain.Contract\\ProductCatalog.Domain.Contract.csproj": {
+              "projectPath": "C:\\Users\\Trainer\\source\\repos\\MSC_Group\\ProductCatalog\\ProductCatalog.Domain.Contract\\ProductCatalog.Domain.Contract.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
