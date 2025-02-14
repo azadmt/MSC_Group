@@ -21,9 +21,6 @@ namespace OrderManagement.Application.Order
             repository.Save(order);
         }
 
-        public void Handle(ApproveOrderCommand command)
-        {
-            throw new NotImplementedException();
-        }
+  
     }
 }

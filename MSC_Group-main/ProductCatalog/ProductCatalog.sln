@@ -55,9 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderManagement.Api", "Prod
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Inventory", "Inventory", "{C1D3F8EC-9761-4170-866D-A06A8E370FAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InentoryManagement.Api", "InentoryManagement.Api\InentoryManagement.Api.csproj", "{8F3904A1-0F07-44C0-B6B2-A7CFF061A51C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InentoryManagement.Api", "InentoryManagement.Api\InentoryManagement.Api.csproj", "{8F3904A1-0F07-44C0-B6B2-A7CFF061A51C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Contract", "InventoryManagement.Contract\InventoryManagement.Contract.csproj", "{76F44FC7-BE6F-446E-BAED-5FB8A83C548D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryManagement.Contract", "InventoryManagement.Contract\InventoryManagement.Contract.csproj", "{76F44FC7-BE6F-446E-BAED-5FB8A83C548D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagement.OutboxPublisher", "OrderManagement.OutboxPublisher\OrderManagement.OutboxPublisher.csproj", "{36A71D52-1369-4B25-BA49-E634692DAD0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{76F44FC7-BE6F-446E-BAED-5FB8A83C548D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76F44FC7-BE6F-446E-BAED-5FB8A83C548D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76F44FC7-BE6F-446E-BAED-5FB8A83C548D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A71D52-1369-4B25-BA49-E634692DAD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A71D52-1369-4B25-BA49-E634692DAD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A71D52-1369-4B25-BA49-E634692DAD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A71D52-1369-4B25-BA49-E634692DAD0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -165,6 +171,7 @@ Global
 		{0D814B16-7209-4FB6-B442-9D03AFE942A6} = {9F4DF699-3F4C-4368-AECC-95FC25923955}
 		{8F3904A1-0F07-44C0-B6B2-A7CFF061A51C} = {C1D3F8EC-9761-4170-866D-A06A8E370FAB}
 		{76F44FC7-BE6F-446E-BAED-5FB8A83C548D} = {C1D3F8EC-9761-4170-866D-A06A8E370FAB}
+		{36A71D52-1369-4B25-BA49-E634692DAD0C} = {9F4DF699-3F4C-4368-AECC-95FC25923955}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD651F5D-60B7-4125-BFF2-32458C2CCBD7}

@@ -1,5 +1,7 @@
 using Framework.Domain.Application;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
+using OrderManagement.Api.EventHandler;
 using OrderManagement.Application.Order;
 using OrderManagement.Domain.Contract;
 using OrderManagement.Domain.Order;
@@ -21,6 +23,26 @@ namespace ProductManagement.Api
             builder.Services
                     .AddDbContext<OrderManagementDbContext>(opt =>
                     opt.UseSqlServer(builder.Configuration.GetConnectionString("default")));
+
+
+            builder.Services.AddMassTransit(x =>
+            {
+                x.AddConsumer<StockAdjusmentConfirmedEventHandler>();
+                x.UsingRabbitMq((context, cfg) =>
+                {
+                    cfg.ConfigureJsonSerializerOptions(options =>
+                    {
+                        // customize the JsonSerializerOptions here
+                        return options;
+                    });
+                    cfg.ConfigureEndpoints(context);
+                    cfg.Host("localhost", "/", h =>
+                    {
+                        h.Username("guest");
+                        h.Password("guest");
+                    });
+                });
+            });
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

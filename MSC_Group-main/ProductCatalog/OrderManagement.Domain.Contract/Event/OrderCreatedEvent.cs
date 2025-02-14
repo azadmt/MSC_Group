@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace OrderManagement.Domain.Contract.Event
@@ -15,9 +16,19 @@ namespace OrderManagement.Domain.Contract.Event
             OrderDate=orderDate;
             OrderItems=orderItemDtos;
         }
-        public Guid OrderId { get;private set; }
-        public DateTime OrderDate { get; private set; }
 
+        [JsonConstructor]
+        private OrderCreatedEvent()
+        {
+
+        }
+
+        [JsonInclude]
+        public Guid OrderId { get;private set; }
+
+        [JsonInclude]
+        public DateTime OrderDate { get; private set; }
+        [JsonInclude]
         public List<OrderItemDto> OrderItems { get; private set; }
     }
 

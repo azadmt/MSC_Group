@@ -18,6 +18,7 @@ namespace InentoryManagement.Api.EventHandler
         public async Task Consume(ConsumeContext<OrderCreatedEvent> context)
         {
             //TODO implement InboxPattern
+           
             var orderEvent = context.Message;
             var productsId = orderEvent.OrderItems.Select(x => x.ProductId).ToList();
             var stocks = dbContext.Set<Stock>().Where(x => productsId.Contains(x.ProductId)).ToList();
@@ -26,7 +27,7 @@ namespace InentoryManagement.Api.EventHandler
                 var orderLine = orderEvent.OrderItems.FirstOrDefault(x => x.ProductId == item.ProductId);
                 if (item.Quantity < orderLine.Quantity)
                 {
-                    await context.Publish(new StockAdjusmentRejectedEvent() { OrderId = orderEvent.Id });
+                    await context.Publish(new StockAdjusmentRejectedEvent() { OrderId = orderEvent.OrderId });
                     return;
                 }
                 else
@@ -36,7 +37,7 @@ namespace InentoryManagement.Api.EventHandler
             }
             dbContext.Set<Stock>().UpdateRange(stocks);
             dbContext.SaveChanges();
-            await context.Publish(new StockAdjusmentConfirmedEvent() { OrderId = orderEvent.Id });
+            await context.Publish(new StockAdjusmentConfirmedEvent() { OrderId = orderEvent.OrderId });
 
         }
     }
